@@ -1,0 +1,6 @@
+name=Warz Occupations Addon
+id=WarzOccupationsAddon
+description=
+require=ProfessionFramework
+require=WarzOccupations
+poster=poster.png

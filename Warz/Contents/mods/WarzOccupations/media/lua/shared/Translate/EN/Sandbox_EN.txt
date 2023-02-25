@@ -1,0 +1,11 @@
+Sandbox_EN = {
+
+Sandbox_Tux = "Warz - Professions",
+
+Sandbox_Tux_geekPanic = "Geek - Panic per person",
+Sandbox_Tux_geekPanic_tooltip = "How much panic per person (excluding zombies) the geek will gain over time.",
+
+Sandbox_Tux_geekPanicDistance = "Geek - Panic distance to people",
+Sandbox_Tux_geekPanicDistance_tooltip = "Distance from the people.",
+
+}

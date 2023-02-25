@@ -1,0 +1,1 @@
+return {"p_slacker", "p_hunter", "p_gatherer", "p_scavenger", "p_smuggler", "p_soldier", "p_farmer", "p_medic", "p_geek", "p_tailor", "p_engineer", "p_carpenter", "p_blacksmith" , "p_fisherman", "p_cook", "p_chaplain"}

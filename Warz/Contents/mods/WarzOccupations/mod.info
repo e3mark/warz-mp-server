@@ -1,0 +1,5 @@
+name=Warz Occupations
+id=WarzOccupations
+description=This mod adds several new professions
+require=ProfessionFramework
+poster=poster.png
