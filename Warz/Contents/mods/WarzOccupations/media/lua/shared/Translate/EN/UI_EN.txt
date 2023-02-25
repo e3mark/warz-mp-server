@@ -55,6 +55,8 @@ UI_EN = {
     UI_t_electrician_desc = "Knows how to operate generators.",
     UI_t_mechanics = "Amateur Mechanic",
     UI_t_mechanics_desc = "Has a detailed knowledge of common and commercial vehicle models, and repairs.",
+    UI_t_bombmaker = "Bombmaker",
+    UI_t_bombmaker_desc = "Has a detailed knowledge of bombmaking.",
     
     UI_p_cook = "Cook",
     UI_p_cook = "All cooking recipes will be unlocked.",

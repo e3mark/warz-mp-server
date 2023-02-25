@@ -5,6 +5,3 @@ option Tux.geekPanic
 
 option Tux.geekPanicDistance
 { type = integer, default = 5, min = 3, max = 10, page = Tux, translation = Tux_geekPanicDistance, }
-
-option Tux.foodPoisonImmune
-{ type = boolean, default = false, page = Tux, translation = Tux_foodPoisonImmune, }

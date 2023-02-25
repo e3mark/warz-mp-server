@@ -3,7 +3,7 @@ VERSION = 1,
 option CustomStarterItems.p_slacker
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.KitchenKnife,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_slacker,
 }
@@ -11,7 +11,7 @@ option CustomStarterItems.p_slacker
 option CustomStarterItems.p_hunter
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_hunter,
 }
@@ -19,7 +19,7 @@ option CustomStarterItems.p_hunter
 option CustomStarterItems.p_gatherer
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.NoiseTrap,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_gatherer,
 }
@@ -27,7 +27,7 @@ option CustomStarterItems.p_gatherer
 option CustomStarterItems.p_scavenger
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_scavenger,
 }
@@ -35,7 +35,7 @@ option CustomStarterItems.p_scavenger
 option CustomStarterItems.p_smuggler
 {
 	type = string,
-	default = Base.Bag_DuffelBag;Base.Crowbar,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_smuggler,
 }
@@ -43,7 +43,7 @@ option CustomStarterItems.p_smuggler
 option CustomStarterItems.p_soldier
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.Pistol;Base.9mmClip;Base.Bullets9mmBox,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_soldier,
 }
@@ -51,7 +51,7 @@ option CustomStarterItems.p_soldier
 option CustomStarterItems.p_farmer
 {
 	type = string,
-	default = Base.Bag_Schoolbag;farming.CabbageBagSeed;farming.PotatoBagSeed;farming.CarrotBagSeed;farming.HandShovel;farming.WateredCan,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_farmer,
 }
@@ -59,7 +59,7 @@ option CustomStarterItems.p_farmer
 option CustomStarterItems.p_medic
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.Bandage;Base.Bandage;Base.Bandage;Base.PillsBeta;Radio.PillsAntiDep;Base.PillsVitamins,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_medic,
 }
@@ -67,7 +67,7 @@ option CustomStarterItems.p_medic
 option CustomStarterItems.p_geek
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_geek,
 }
@@ -75,7 +75,7 @@ option CustomStarterItems.p_geek
 option CustomStarterItems.p_tailor
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_tailor,
 }
@@ -83,7 +83,7 @@ option CustomStarterItems.p_tailor
 option CustomStarterItems.p_engineer
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_engineer,
 }
@@ -91,7 +91,7 @@ option CustomStarterItems.p_engineer
 option CustomStarterItems.p_carpenter
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.Hammer;Base.Saw;Base.NailsBox,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_carpenter,
 }
@@ -99,7 +99,7 @@ option CustomStarterItems.p_carpenter
 option CustomStarterItems.p_blacksmith
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.BlowTorch;Base.WeldingRods;Base.WeldingRods;Base.WeldingMask,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_blacksmith,
 }
@@ -107,7 +107,7 @@ option CustomStarterItems.p_blacksmith
 option CustomStarterItems.p_fisherman
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_fisherman,
 }
@@ -115,7 +115,7 @@ option CustomStarterItems.p_fisherman
 option CustomStarterItems.p_cook
 {
 	type = string,
-	default = Base.Bag_Schoolbag;Base.MeatCleaver;Base.Pan;Base.TinOpener,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_cook,
 }
@@ -123,7 +123,7 @@ option CustomStarterItems.p_cook
 option CustomStarterItems.p_chaplain
 {
 	type = string,
-	default = Base.Bag_Schoolbag,
+	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_chaplain,
 }

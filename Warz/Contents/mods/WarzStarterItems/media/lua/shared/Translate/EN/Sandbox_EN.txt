@@ -1,4 +1,6 @@
 Sandbox_EN = {
+	Sandbox_CustomStarterItems = "Warz - Starter Items",
+
 	Sandbox_CustomStarterItems_p_slacker = "Slacker kit",
 	Sandbox_CustomStarterItems_p_slacker_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer
 

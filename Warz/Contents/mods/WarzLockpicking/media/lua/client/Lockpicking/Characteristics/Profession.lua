@@ -1,9 +1,9 @@
-local function initProfessions()
-    local thief = ProfessionFactory.getProfession("p_smuggler");
-    thief:addFreeTrait("nimblefingers")
-end
+-- local function initProfessions()
+--     local thief = ProfessionFactory.getProfession("p_smuggler");
+--     thief:addFreeTrait("nimblefingers")
+-- end
 
-Events.OnGameBoot.Add(initProfessions);
+-- Events.OnGameBoot.Add(initProfessions);
 
 
 local function onNewGame(player)

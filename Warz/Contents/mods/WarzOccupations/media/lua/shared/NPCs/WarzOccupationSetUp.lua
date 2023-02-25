@@ -108,13 +108,13 @@ addProfession('p_soldier', {
     traits = { "t_soldier", "Desensitized" },
     clothing = {
         Hat = {"Base.Hat_Cowboy", "Base.Hat_Beany"},
-        Mask = {"Base.Hat_BandanaMask", "Base.Hat_BandanaMaskTINT"},
-        TorsoExtra = {"Base.Vest_BulletPolice"},
-        FullHat = {"Base.Hat_CrashHelmetFULL", "Base.Hat_Army"},
-        Back = {"Base.Bag_Schoolbag", "Base.Bag_DuffelBagTINT"},
-        Jacket = {"Base.Jacket_WhiteTINT"},
-        Pants = {"Base.Trousers_CamoDesert", "Base.Trousers_CamoGreen", "Base.Trousers_CamoUrban"},
-        Shoes =  {"Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots"},
+        --Mask = {"Base.Hat_BandanaMask", "Base.Hat_BandanaMaskTINT"},
+        --TorsoExtra = {"Base.Vest_BulletPolice"},
+        --FullHat = {"Base.Hat_CrashHelmetFULL", "Base.Hat_Army"},
+        --Back = {"Base.Bag_Schoolbag", "Base.Bag_DuffelBagTINT"},
+        --Jacket = {"Base.Jacket_WhiteTINT"},
+        --Pants = {"Base.Trousers_CamoDesert", "Base.Trousers_CamoGreen", "Base.Trousers_CamoUrban"},
+        --Shoes =  {"Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots"},
     },
 })
 
@@ -134,11 +134,11 @@ addProfession('p_farmer', {
     traits = { "t_farmer", "Axeman" },
     clothing = {
         Hat = { "Base.Hat_SummerHat" },
-        Shirt = { "Base.Shirt_Lumberjack" },
-        TorsoExtra = { "Base.Vest_Foreman", "Base.Apron_Black", "Base.Apron_White" },
-        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
-        Pants = { "Base.Dungarees" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_BlackBoots", "Base.Shoes_Wellies" },
+        --Shirt = { "Base.Shirt_Lumberjack" },
+        --TorsoExtra = { "Base.Vest_Foreman", "Base.Apron_Black", "Base.Apron_White" },
+        --Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        --Pants = { "Base.Dungarees" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_BlackBoots", "Base.Shoes_Wellies" },
     },
 })
 
@@ -154,9 +154,9 @@ addProfession('p_medic', {
     traits = { "t_medic", "FastLearner2" },
     clothing = {
         Mask = { "Base.Hat_SurgicalMask_Blue", "Base.Hat_SurgicalMask_Green" },
-        Jacket = { "Base.JacketLong_Doctor" },
-        Hands = { "Base.Gloves_FingerlessGloves" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
+        --Jacket = { "Base.JacketLong_Doctor" },
+        --Hands = { "Base.Gloves_FingerlessGloves" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -180,18 +180,18 @@ addProfession('p_tailor', {
     traits = { "t_sewer", "Dextrous2" },
     clothing = {
         Hat = { "Base.Hat_Antlers", "Base.Hat_Beany", "Base.Scarf_StripeBlueWhite", "Base.Scarf_StripeRedWhite" },
-        Tshirt = { "Base.Shirt_CropTopNoArmTINT", "Base.Shirt_CropTopTINT", "Base.Tshirt_Sport" },
-        Shirt = { "Base.Shirt_Denim", "Base.Shirt_Lumberjack", "Base.Shirt_Workman" },
-        TorsoExtra = { "Base.Apron_Black", "Base.Apron_White", "Base.Vest_Hunting_Grey", "Base.Vest_Waistcoat" },
-        Jacket = { "Base.Suit_Jacket", "Base.Jacket_Varsity", "Base.PonchoGreen", "Base.PonchoYellow", "Base.Jacket_WhiteTINT", "Base.Jacket_PaddedDOWN" },
-        Sweater = { "Base.HoodieDOWN_WhiteTINT", "Base.Jumper_TankTopTINT", "Base.Jumper_VNeck", "Base.Jumper_RoundNeck", "Base.Jumper_PoloNeck", "Base.Jumper_TankTopDiamondTINT", "Base.Jumper_DiamondPatternTINT" },
-        Hands = { "Base.Gloves_FingerlessGloves", "Base.Gloves_WhiteTINT", "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack", "Base.Gloves_LongWomenGloves" },
-        Pants = { "Base.Shorts_LongSport", "Base.Trousers_Padded", "Base.Trousers_Suit" },
-        Skirt = { "Base.Skirt_Knees", "Base.Skirt_Normal", "Base.Skirt_Short" },
-        Shoes = { "Base.Shoes_BlackBoots", "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_Slippers" },
-        FullSuit = { "Base.Boilersuit", "Base.WeddingDress" },
-        Dress = { "Base.Dress_Normal", "Base.Dress_Knees", "Base.Dress_Long" },
-        Underwear = { "Base.BunnySuitBlack", "Base.BunnySuitPink" },
+        --Tshirt = { "Base.Shirt_CropTopNoArmTINT", "Base.Shirt_CropTopTINT", "Base.Tshirt_Sport" },
+        --Shirt = { "Base.Shirt_Denim", "Base.Shirt_Lumberjack", "Base.Shirt_Workman" },
+        --TorsoExtra = { "Base.Apron_Black", "Base.Apron_White", "Base.Vest_Hunting_Grey", "Base.Vest_Waistcoat" },
+        --Jacket = { "Base.Suit_Jacket", "Base.Jacket_Varsity", "Base.PonchoGreen", "Base.PonchoYellow", "Base.Jacket_WhiteTINT", "Base.Jacket_PaddedDOWN" },
+        --Sweater = { "Base.HoodieDOWN_WhiteTINT", "Base.Jumper_TankTopTINT", "Base.Jumper_VNeck", "Base.Jumper_RoundNeck", "Base.Jumper_PoloNeck", "Base.Jumper_TankTopDiamondTINT", "Base.Jumper_DiamondPatternTINT" },
+        --Hands = { "Base.Gloves_FingerlessGloves", "Base.Gloves_WhiteTINT", "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack", "Base.Gloves_LongWomenGloves" },
+        --Pants = { "Base.Shorts_LongSport", "Base.Trousers_Padded", "Base.Trousers_Suit" },
+        --Skirt = { "Base.Skirt_Knees", "Base.Skirt_Normal", "Base.Skirt_Short" },
+        --Shoes = { "Base.Shoes_BlackBoots", "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_Slippers" },
+        --FullSuit = { "Base.Boilersuit", "Base.WeddingDress" },
+        --Dress = { "Base.Dress_Normal", "Base.Dress_Knees", "Base.Dress_Long" },
+        --Underwear = { "Base.BunnySuitBlack", "Base.BunnySuitPink" },
     },
 })
 
@@ -208,9 +208,9 @@ addProfession('p_engineer', {
     traits = { "t_electrician", "t_mechanics", "t_bombmaker" },
     clothing = {
         Eyes = { "Base.Glasses_SafetyGoggles" },
-        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
-        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
+        --Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        --FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -229,12 +229,12 @@ addProfession('p_carpenter', {
     traits = { "Handy2" },
     clothing = {
         Eyes = { "Base.Glasses_SafetyGoggles" },
-        Hat = { "Base.Hat_HardHat" },
-        Shirt = { "Base.Shirt_Workman" },
-        TorsoExtra = { "Base.Vest_HighViz" },
-        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
-        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
+        --Hat = { "Base.Hat_HardHat" },
+        --Shirt = { "Base.Shirt_Workman" },
+        --TorsoExtra = { "Base.Vest_HighViz" },
+        --Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        --FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -254,12 +254,12 @@ addProfession('p_blacksmith', {
     traits = { "t_blacksmith", "t_mechanics" },
     clothing = {
         Eyes = { "Base.Glasses_SafetyGoggles" },
-        MaskFull = { "Base.WeldingMask" },
-        Hat = { "Base.Hat_HardHat" },
-        Shirt = { "Base.Shirt_Workman" },
-        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
-        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
+        --MaskFull = { "Base.WeldingMask" },
+        --Hat = { "Base.Hat_HardHat" },
+        --Shirt = { "Base.Shirt_Workman" },
+        --Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        --FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -272,7 +272,7 @@ addProfession('p_fisherman', {
     xp = {
         [Perks.Fishing] = 4,
         [Perks.PlantScavenging] = 1,
-        [Perks.SmallBlade] = 2,
+        [Perks.Spear] = 2,
         [Perks.Strength] = 2,
     },
     traits = { "t_fisherman" },
@@ -294,7 +294,7 @@ addProfession('p_cook', {
     clothing = {
         Hat = { "Base.Hat_ChefHat" },
         TorsoExtra = { "Base.Apron_White", "Base.Apron_Black" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -314,7 +314,7 @@ addProfession('p_chaplain', {
     traits = { "t_faithful", "Desensitized", "Lucky2", "Pacifist2", "Resilient2" },
     clothing = {
         Shirt = { "Base.Shirt_Priest" },
-        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
+        --Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
         Necklace = { "Base.Necklace_SilverCrucifix" },
     }
 })
