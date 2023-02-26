@@ -100,33 +100,28 @@ addTrait("t_electrician", {
     name = "UI_t_electrician",
     description = "UI_t_electrician_desc",
     profession = true,
-    recipes = { "Generator" },
-})
--- (t_mechanics = Engineer and Blacksmith)
-addTrait("t_mechanics", {
-    name = "UI_t_mechanics",
-    description = "UI_t_mechanics_desc",
-    xp = {
-        [Perks.Mechanics] = 2,
-    },
-    recipes = { "Basic Mechanics", "Intermediate Mechanics" },
-    profession = true,
-    exclude = { "Mechanics" },
 })
 addTrait("t_bombmaker", {
     name = "UI_t_bombmaker",
     description = "UI_t_bombmaker_desc",
     profession = true,
-    recipes = { "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
 })
 
 -- 12. Carpenter
 
--- 13. Blacksmith (metalworks)
+-- 13.1 Blacksmith (metalworker)
 addTrait("t_blacksmith", {
     name = "UI_t_blacksmith",
     description = "UI_t_blacksmith_desc",
     profession = true,
+})
+
+-- 13.2 Mechanic
+addTrait("t_mechanics", {
+    name = "UI_t_mechanics",
+    description = "UI_t_mechanics_desc",
+    profession = true,
+    exclude = { "Mechanics" },
 })
 
 -- 14. Fisherman

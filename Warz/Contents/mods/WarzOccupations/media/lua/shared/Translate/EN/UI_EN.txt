@@ -34,13 +34,18 @@ UI_EN = {
     UI_t_farmer = "Farmer",
     UI_t_farmer_desc = "More effective in combat with farming tools and axes.<br>More likely to find crops, vegetables and fruits when foraging.<br>All gardening recipes will be unlocked.",
     
-    UI_p_blacksmith = "Blacksmith",
-    UI_p_blacksmith_desc = "All metalworking recipes will beÅ›Å›Å›Å› unlocked.",
+    UI_p_blacksmith = "Metalworker",
+    UI_p_blacksmith_desc = "Some metalworking recipes will be unlocked.",
     UI_t_blacksmith = "Blacksmith",
     UI_t_blacksmith_desc = "50% less propane usage when using blowtorch.",
 
+    UI_p_mechanic = "Mechanic",
+    UI_p_mechanic_desc = "Some mechanic recipes will be unlocked.",
+    UI_t_mechanic = "Mechanic",
+    UI_t_mechanic_desc = "Has a detailed knowledge of common and commercial vehicle models, and repairs.",
+
     UI_p_fisherman = "Fisherman",
-    UI_p_fisherman_desc = "All fishing recipes will be unlocked.",
+    UI_p_fisherman_desc = "Some fishing recipes will be unlocked.",
     UI_t_fisherman = "Fisherman",
     UI_t_fisherman_desc = "50% bonus to fishing XP gains.",
 
@@ -53,8 +58,6 @@ UI_EN = {
     UI_p_engineer_desc = "",
     UI_t_electrician = "Electrician",
     UI_t_electrician_desc = "Knows how to operate generators.",
-    UI_t_mechanics = "Amateur Mechanic",
-    UI_t_mechanics_desc = "Has a detailed knowledge of common and commercial vehicle models, and repairs.",
     UI_t_bombmaker = "Bombmaker",
     UI_t_bombmaker_desc = "Has a detailed knowledge of bombmaking.",
     

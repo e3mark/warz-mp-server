@@ -68,6 +68,7 @@ t_farmer_items = {
 }
 
 function fn_t_farmer(player, weapon_in_hand)
+    if not player:HasTrait("t_farmer") then return end
     if fn_t_farmer_check() ~= true then return end
     local item = weapon_in_hand:getModData()
     if item['is_farming_item'] ~= true then
@@ -76,8 +77,8 @@ function fn_t_farmer(player, weapon_in_hand)
         item['maxDmg'] = item['maxDmg'] or weapon_in_hand:getMaxDamage()
         item['GminDmg'] = math.floor(((item['minDmg'] * 1.5) * 10) / 10)
         item['GmaxDmg'] = math.floor(((item['maxDmg'] * 1.5) * 10) / 10)
-        player:setHaloNote("xxxFarmer Bonus: " .. weapon_in_hand:getType())
-        weapon_in_hand:setTooltip('xxxFarmerWeaponBonusDmg: ' .. item['GminDmg'] .. '-' .. item['GmaxDmg'])
+        player:setHaloNote("Farmer Bonus: " .. weapon_in_hand:getType() .. '-' .. item['GminDmg'] .. '-' .. item['GmaxDmg'])
+        --weapon_in_hand:setTooltip('xxxFarmerWeaponBonusDmg: ' .. item['GminDmg'] .. '-' .. item['GmaxDmg'])
         if weapon_in_hand:hasModData() and item['is_farming_item'] == true then
             weapon_in_hand:setMinDamage(item['GminDmg'])
             weapon_in_hand:setMaxDamage(item['GmaxDmg'])
@@ -261,8 +262,9 @@ local function fn_t_faithful_context(player, context, items)
         if item:IsWeapon() then   
             --local tool_tip = ISInventoryPaneContextMenu.addToolTip()
             --tool_tip.description = getText("Ohu! Weapons make me sick.")    
-            specific_player:setHaloNote("Faithful Bonus: " .. specific_player:getStats():getPanic())
-            specific_player:getStats():setPanic(specific_player:getStats():getPanic() + 10)
+            --specific_player:setHaloNote("Faithful Panic: " .. specific_player:getStats():getPanic())
+            specific_player:setHaloNote("Ohu! Weapons make me sick.")
+            specific_player:getStats():setPanic(specific_player:getStats():getPanic() + 5)
             break
         end
     end
