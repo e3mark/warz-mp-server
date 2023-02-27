@@ -1,6 +1,7 @@
-ProfessionFramework.RemoveDefaultProfessions = true
+-- Thank you Echopio
 
---ProfessionFramework.AlwaysUseStartingKits = false
+ProfessionFramework.RemoveDefaultProfessions = true
+ProfessionFramework.AlwaysUseStartingKits = false
 --ProfessionFramework.LogLevel = 3
 
 local addProfession = ProfessionFramework.addProfession 
@@ -10,218 +11,19 @@ local getProfession = ProfessionFramework.getProfession
 addProfession('p_slacker', {
     name = "UI_p_slacker",
     description = "UI_p_slacker_desc",
-    icon = "p_slacker",
+    --icon = "p_slacker",
     cost = 12,
     traits = { "t_untalented" },
     clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
+        Back = { "Base.WoodenLance" },
     },
 })
 
--- 2. Hunter (aiming and minor foraging)
-addProfession('p_hunter', {
-    name = "UI_p_hunter",
-    description = "UI_p_hunter_desc",
-    icon = "p_hunter",
-    cost = -6,
-    xp = {
-        [Perks.Trapping] = 3,
-        [Perks.Aiming] = 3,
-        [Perks.Reloading] = 2,
-        [Perks.Fitness] = 1,
-        [Perks.Fishing] = 1,
-        [Perks.PlantScavenging] = 1,
-    },
-    traits = { "t_hunter", "Outdoorsman2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 3. Gatherer (foraging)
-addProfession('p_gatherer', {
-    name = "UI_p_gatherer",
-    icon = "p_gatherer",
-    cost = -6,
-    xp = {
-        [Perks.PlantScavenging] = 3,
-        [Perks.Trapping] = 2,
-        [Perks.Farming] = 1,
-        [Perks.Fishing] = 1,
-        [Perks.Strength] = 1,
-    },
-    traits = { "t_gatherer", "Organized2", "Outdoorsman2", "Lucky2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 4. Scavenger (looting)
-addProfession('p_scavenger', {
-    name = "UI_p_scavenger",
-    description = "UI_p_scavenger_desc",
-    icon = "p_scavenger",
-    cost = -6,
-    xp = {
-        [Perks.Sneak] = 3,
-        [Perks.Lightfoot] = 2,
-        [Perks.Nimble] = 1,
-        [Perks.Strength] = 1,
-        [Perks.PlantScavenging] = 1,
-    },
-    traits = { "t_scavenger", "Organized2", "Lucky2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 5. Smuggler (sprinting)
-addProfession('p_smuggler', {
-    name = "UI_p_smuggler",
-    description = "UI_p_smuggler_desc",
-    icon = "p_smuggler",
-    cost = -6,
-    xp = {
-        [Perks.Fitness] = 3,
-        [Perks.Sprinting] = 3,
-        [Perks.Nimble] = 1,
-        [Perks.SmallBlade] = 2,
-        [Perks.Strength] = 1,
-    },
-    traits = { "t_smuggler", "Organized2", "Outdoorsman2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 6. Soldier
-addProfession('p_soldier', {
-    name = "UI_p_soldier",
-    description = "UI_p_soldier_desc",
-    icon = "p_soldier",
-    cost = -8,
-    xp = {
-        [Perks.Aiming] = 4,
-        [Perks.Reloading] = 2,
-        [Perks.Nimble] = 2,
-        [Perks.Spear] = 2,
-        [Perks.Axe] = 1,
-        [Perks.Strength] = 2,
-    },
-    traits = { "t_soldier", "Desensitized" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 7. Farmer (farmer + axeman)
-addProfession('p_farmer', {
-    name = "UI_p_farmer",
-    icon = "p_farmer",
-    cost = -4,
-    xp = {
-        [Perks.Farming] = 3,
-        [Perks.Trapping] = 2,
-        [Perks.Maintenance] = 1,
-        [Perks.PlantScavenging] = 1,
-        [Perks.Axe] = 2,
-    },
-    traits = { "t_farmer", "Axeman" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 8. Medic
-addProfession('p_medic', {
-    name = "UI_p_medic",
-    icon = "p_medic",
-    cost = 2,
-    xp = {
-        [Perks.Doctor] = 3,
-        [Perks.SmallBlade] = 2,
-    },
-    traits = { "t_medic", "FastLearner2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 9. Geek
-addProfession('p_geek', {
-    name = "UI_p_geek",
-    icon = "p_geek",
-    cost = 0,
-    traits = { "t_geek", "t_antisocial", "Clumsy2", "Cowardly2", "FastReader2", "NeedsLessSleep2", "Dextrous2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 10. Tailor
---[[ Echopio
-    TAILORING - 3
-    FIRST AID - 2
-    COOKING - 1
-    FARMING - 1
-    SHORT BLADE - 1
-]]
-addProfession('p_tailor', {
-    name = "UI_p_tailor",
-    icon = "p_tailor",
-    cost = 0,
-    xp = {
-        [Perks.Tailoring] = 3,
-        [Perks.Doctor] = 2,
-        [Perks.Cooking] = 1,
-        [Perks.Farming] = 1,
-        [Perks.SmallBlade] = 1,
-    },
-    traits = { "t_sewer" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 11. Engineer
---[[ Echopio
-    ELECTRICAL - 3
-    MECHANICS - 2
-    METALWORKING - 1
-    CARPENTRY - 1
-    MAINTENANCE - 1
-]]
-addProfession('p_engineer', {
-    name = "UI_p_engineer",
-    icon = "p_engineer",
-    cost = 0,
-    xp = {
-        [Perks.Electricity] = 3,
-        [Perks.Mechanics] = 2,
-        [Perks.MetalWelding] = 1,
-        [Perks.Woodwork] = 1,
-        [Perks.Maintenance] = 1,
-    },
-    recipes = { "Basic Mechanics", "Generator", "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
-    traits = { "t_electrician", "t_bombmaker" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 12. Carpenter
---[[ Echopio:
-    CARPENTRY - 3
-    MAINTENANCE - 2
-    METALWORKING - 1
-    TAILORING - 1
-    SHORT BLUNT - 1
-]]
-
+-- 2. Carpenter
 addProfession('p_carpenter', {
     name = "UI_p_carpenter",
     description = "UI_p_carpenter_desc",
-    icon = "p_carpenter",
+    --icon = "p_carpenter",
     cost = 0,
     xp = {
         [Perks.Woodwork] = 3,
@@ -230,24 +32,16 @@ addProfession('p_carpenter', {
         [Perks.Tailoring] = 1,
         [Perks.SmallBlunt] = 1,
     },
-    traits = { "Handy2" },
     clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
+        Back = { "Base.WoodenLance" },
     },
 })
 
--- 13.1 Blacksmith (metalworker)
---[[ Echopio:
-    METALWORKING - 3
-    MAINTENANCE - 2
-    CARPENTRY - 1
-    MECHANICS - 1
-    SHORT BLUNT - 1 
-]]
-addProfession('p_blacksmith', {
-    name = "UI_p_blacksmith",
-    description = "UI_p_blacksmith_desc",
-    icon = "p_blacksmith",
+-- 3. Metalworker
+addProfession('p_metalworker', {
+    name = "UI_p_metalworker",
+    description = "UI_p_metalworker_desc",
+    --icon = "p_metalworker",
     cost = 0,
     xp = {
         [Perks.MetalWelding] = 3,
@@ -256,25 +50,17 @@ addProfession('p_blacksmith', {
         [Perks.Mechanics] = 1,
         [Perks.SmallBlunt] = 1,
     },
-    recipes = { "Make Metal Walls", "Make Metal Fences", "Make Metal Containers", "Make Metal Sheet", "Make Small Metal Sheet", "Make Metal Roof" },
-    traits = { "t_blacksmith" },
+    -- recipes = { "Make Metal Walls", "Make Metal Fences", "Make Metal Containers", "Make Metal Sheet", "Make Small Metal Sheet", "Make Metal Roof" },
     clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
+        Back = { "Base.WoodenLance" },
     },
 })
 
--- 13.2 Mechanic
---[[ Echopio:
-    MECHANICS - 3
-    MAINTENANCE - 2
-    METALWORKING - 1
-    ELETRICAL - 1
-    SHORT BLUNT - 1
-]]
+-- 3. Mechanic
 addProfession('p_mechanic', {
     name = "UI_p_mechanic",
     description = "UI_p_mechanic_desc",
-    icon = "p_mechanic",
+    --icon = "p_mechanic",
     cost = 0,
     xp = {
         [Perks.MetalWelding] = 3,
@@ -283,66 +69,191 @@ addProfession('p_mechanic', {
         [Perks.Mechanics] = 1,
         [Perks.SmallBlunt] = 1,
     },
-    recipes = { "Basic Mechanics", "Intermediate Mechanics" },
-    traits = { "t_mechanics" },
+    -- recipes = { "Basic Mechanics", "Intermediate Mechanics" },
     clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
+        Back = { "Base.WoodenLance" },
     },
 })
 
--- 14. Fisherman
--- Todo: enable hard fishing mod
+-- 4. Engineer
+addProfession('p_engineer', {
+    name = "UI_p_engineer",
+    description = "UI_p_engineer_desc",
+    --icon = "p_engineer",
+    cost = 0,
+    xp = {
+        [Perks.Electricity] = 3,
+        [Perks.Mechanics] = 2,
+        [Perks.MetalWelding] = 1,
+        [Perks.Woodwork] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    -- recipes = { "Basic Mechanics", "Generator", "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 5. Tailor
+addProfession('p_tailor', {
+    name = "UI_p_tailor",
+    description = "UI_p_tailor_desc",
+    --icon = "p_tailor",
+    cost = 0,
+    xp = {
+        [Perks.Tailoring] = 3,
+        [Perks.Doctor] = 2,
+        [Perks.Cooking] = 1,
+        [Perks.Farming] = 1,
+        [Perks.SmallBlade] = 1,
+    },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 6. Nomad
+addProfession('p_nomad', {
+    name = "UI_p_nomad",
+    description = "UI_p_nomad_desc",
+    --icon = "p_nomad",
+    cost = 0,
+    xp = {
+        [Perks.PlantScavenging] = 3,
+        [Perks.Spear] = 2,
+        [Perks.Sneak] = 1,
+        [Perks.Lightfoot] = 1,
+        [Perks.Doctor] = 1,
+    },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 7. Trapper
+addProfession('p_trapper', {
+    name = "UI_p_trapper",
+    description = "UI_p_trapper_desc",
+    --icon = "p_trapper",
+    cost = 0,
+    xp = {
+        [Perks.Trapping] = 3,
+        [Perks.Axe] = 2,
+        [Perks.Sneak] = 1,
+        [Perks.Lightfoot] = 1,
+        [Perks.Doctor] = 1,
+    },
+    --recipes = { "Make Stick Trap", "Make Snare Trap", "Make Wooden Cage Trap", "Make Fishing Rod", "Fix Fishing Rod" },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 8. Fisherman
 addProfession('p_fisherman', {
     name = "UI_p_fisherman",
-    icon = "p_fisherman",
-    cost = -4,
+    description = "UI_p_fisherman_desc",
+    --icon = "p_fisherman",
+    cost = 0,
     xp = {
-        [Perks.Fishing] = 4,
-        [Perks.PlantScavenging] = 1,
+        [Perks.Fishing] = 3,
         [Perks.Spear] = 2,
-        [Perks.Strength] = 2,
+        [Perks.Sneak] = 1,
+        [Perks.Lightfoot] = 1,
+        [Perks.Doctor] = 1,
     },
-    traits = { "t_fisherman" },
+    --recipes = {"Make Fishing Rod", "Fix Fishing Rod", "Get Wire Back", "Make Fishing Net"},
     clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
+        Back = { "Base.WoodenLance" },
     },
 })
 
--- 15. Cook
+-- 9. Farmer
+addProfession('p_farmer', {
+    name = "UI_p_farmer",
+    description = "UI_p_farmer_desc",
+    --icon = "p_farmer",
+    cost = 0,
+    xp = {
+        [Perks.Farming] = 3,
+        [Perks.Cooking] = 2,
+        [Perks.Doctor] = 1,
+        [Perks.PlantScavenging] = 1,
+        [Perks.Spear] = 1,
+    },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 10. Infiltrator
+addProfession('p_infiltrator', {
+    name = "UI_p_infiltrator",
+    description = "UI_p_infiltrator_desc",
+    --icon = "p_infiltrator",
+    cost = 0,
+    xp = {
+        [Perks.Lockpicking] = 3,
+        [Perks.SmallBlade] = 2,
+        [Perks.Lightfoot] = 1,
+        [Perks.Nimble] = 1,
+        [Perks.Sneak] = 1,
+    },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 11. Survivor
+addProfession('p_survivor', {
+    name = "UI_p_survivor",
+    description = "UI_p_survivor_desc",
+    --icon = "p_survivor",
+    cost = 0,
+    xp = {
+        [Perks.LongBlade] = 3,
+        [Perks.SmallBlade] = 2,
+        [Perks.Doctor] = 1,
+        [Perks.Nimble] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 12. Fighter
+addProfession('p_fighter', {
+    name = "UI_p_fighter",
+    description = "UI_p_fighter_desc",
+    --icon = "p_fighter",
+    cost = 0,
+    xp = {
+        [Perks.Blunt] = 3,
+        [Perks.SmallBlunt] = 2,
+        [Perks.Doctor] = 1,
+        [Perks.Nimble] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    clothing = {
+        Back = { "Base.WoodenLance" },
+    },
+})
+
+-- 13. Cook
 addProfession('p_cook', {
     name = "UI_p_cook",
-    icon = "p_cook",
-    cost = -4,
+    description = "UI_p_cook_desc",
+    --icon = "p_cook",
+    cost = 0,
     xp = {
-        [Perks.Cooking] = 4,
+        [Perks.Cooking] = 3,
+        [Perks.SmallBlade] = 2,
         [Perks.Farming] = 1,
         [Perks.Fishing] = 1,
-        [Perks.SmallBlade] = 2,
-    },
-    recipes = { "Make Cake Batter", "Make Pie Dough", "Make Bread Dough" },
-    traits = { "t_cook", "Nutritionist2" },
-    clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-    },
-})
-
--- 16. Chaplain (priest)
-addProfession('p_chaplain', {
-    name = "UI_p_chaplain",
-    icon = "p_chaplain",
-    cost = -6,
-    xp = {        
-        [Perks.Cooking] = 1,
-        [Perks.Fishing] = 2,
         [Perks.PlantScavenging] = 1,
-        [Perks.Trapping] = 1,
-        [Perks.Farming] = 2,
-        [Perks.Woodwork] = 2,
     },
-    traits = { "t_faithful", "Desensitized", "Lucky2", "Pacifist2", "Resilient2" },
     clothing = {
-        Back = { "Base.Bag_Improvised_Backpack" },
-        Shirt = { "Base.Shirt_Priest" },
-        Necklace = { "Base.Necklace_SilverCrucifix" },
+        Back = { "Base.WoodenLance" },
     },
 })

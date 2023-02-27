@@ -4,87 +4,38 @@ UI_EN = {
     UI_t_untalented = "Untalented",
     UI_t_untalented_desc = "Gives +12 Trait Points but disables any trait that is a hobby or some other kind of learnable talent.",
 
-    UI_p_hunter = "Hunter",
-    UI_p_hunter_desc = "",
-    UI_t_hunter = "Hunter",
-    UI_t_hunter_desc = "Increased search radius while foraging.<br>More likely to find animals, bait and insects when foraging.<br>All trapping and fishing recipes will be unlocked.",
+    UI_p_carpenter = "Carpenter",
+    UI_p_carpenter_desc = "",
     
-    UI_p_gatherer = "Gatherer",
-    UI_p_gatherer_desc = "",
-    UI_t_gatherer = "Gatherer",
-    UI_t_gatherer_desc = "",
-    
-    UI_p_scavenger = "Scavenger",
-    UI_p_scavenger_desc = "",
-    UI_t_scavenger = "Scavenger",
-    UI_t_scavenger_desc = "More likely to find certain items in urban areas and trailer parks.<br>Less affected by harsh weather conditions and darkness when foraging.",
-    
-    UI_p_smuggler = "Smuggler",
-    UI_p_smuggler_desc = "",
-    UI_t_smuggler = "Smuggler",
-    UI_t_smuggler_desc = "Takes longer to get exhausted.",
+    UI_p_metalworker = "Metalworker",
+    UI_p_metalworker_desc = "",
 
-    UI_p_soldier = "Soldier",
-    UI_p_soldier_desc = "",
-    UI_t_soldier = "Soldier",
-    UI_t_soldier_desc = "More likely to find weapons and ammunition when foraging.",
+    UI_p_mechanic = "Mechanic",
+    UI_p_mechanic_desc = "",
+    
+    UI_p_tailor = "Tailor",
+    UI_p_tailor_desc = "",
+    
+    UI_p_engineer = "Engineer",
+    UI_p_engineer_desc = "",
+
+    UI_p_nomad = "Nomad",
+    UI_p_nomad_desc = "",
+    
+    UI_p_trapper = "Trapper",
+    UI_p_trapper_desc = "",
+    
+    UI_p_fisherman = "Fisherman",
+    UI_p_fisherman_desc = "",
 
     UI_p_farmer = "Farmer",
     UI_p_farmer_desc = "",
-    UI_t_farmer = "Farmer",
-    UI_t_farmer_desc = "More effective in combat with farming tools and axes.<br>More likely to find crops, vegetables and fruits when foraging.<br>All gardening recipes will be unlocked.",
     
-    UI_p_blacksmith = "Metalworker",
-    UI_p_blacksmith_desc = "Some metalworking recipes will be unlocked.",
-    UI_t_blacksmith = "Blacksmith",
-    UI_t_blacksmith_desc = "50% less propane usage when using blowtorch.",
+    UI_p_infiltrator = "Infiltrator",
+    UI_p_infiltrator_desc = "",
+    
+    UI_p_survivor = "Survivor",
+    UI_p_survivor_desc = "",
 
-    UI_p_mechanic = "Mechanic",
-    UI_p_mechanic_desc = "Some mechanic recipes will be unlocked.",
-    UI_t_mechanic = "Mechanic",
-    UI_t_mechanic_desc = "Has a detailed knowledge of common and commercial vehicle models, and repairs.",
-
-    UI_p_fisherman = "Fisherman",
-    UI_p_fisherman_desc = "Some fishing recipes will be unlocked.",
-    UI_t_fisherman = "Fisherman",
-    UI_t_fisherman_desc = "50% bonus to fishing XP gains.",
-
-    UI_p_carpenter = "Carpenter",
-    UI_p_carpenter_desc = "",
-    UI_t_forage_handy = "Carpenter",
-    UI_t_forage_handy_desc = "More likely to find firewood and stones when foraging.",
-
-    UI_p_engineer = "Engineer",
-    UI_p_engineer_desc = "",
-    UI_t_electrician = "Electrician",
-    UI_t_electrician_desc = "Knows how to operate generators.",
-    UI_t_bombmaker = "Bombmaker",
-    UI_t_bombmaker_desc = "Has a detailed knowledge of bombmaking.",
-    
-    UI_p_cook = "Cook",
-    UI_p_cook = "All cooking recipes will be unlocked.",
-    UI_t_cook = "Cook",
-    UI_t_cook = "50% bonus to cooking XP gains.",
-    
-    UI_p_medic = "Medic",
-    UI_p_medic_desc = "",
-    UI_t_medic = "Healer",
-    UI_t_medic_desc = "50% bonus to doctor XP gains.<br>More likely to find medicinal herbs when foraging.",
-    
-    UI_p_geek = "Geek",
-    UI_p_geek = "",
-    UI_t_geek = "Geek",
-    UI_t_geek_desc = "50% bonus to all XP gains.",
-    UI_t_antisocial = "Antisocial",
-    UI_t_antisocial_desc = "Gets panicked and depressed when around other players.",
-    
-    UI_p_chaplain = "Chaplain",
-    UI_p_chaplain_desc = "",
-    UI_t_faithful = "Faithful",
-    UI_t_faithful_desc = "Immune to sadness and boredom, but panics when possessing a weapon.",
-    
-    UI_p_tailor = "Tailor",
-    UI_p_tailor = "",
-    UI_t_sewer = "Sewer",
-    UI_t_sewer_desc = "25% bonus to tailoring XP gains.",
-}
+    UI_p_fighter = "Carpenter",
+    UI_p_fighter_desc = "",
