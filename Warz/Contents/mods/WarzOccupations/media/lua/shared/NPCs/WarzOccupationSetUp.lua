@@ -1,11 +1,9 @@
--- Thank you Echopio
-
-ProfessionFramework.RemoveDefaultProfessions = true
-ProfessionFramework.AlwaysUseStartingKits = false
+--ProfessionFramework.AlwaysUseStartingKits = false
 --ProfessionFramework.LogLevel = 3
 
 local addProfession = ProfessionFramework.addProfession 
 local getProfession = ProfessionFramework.getProfession 
+ProfessionFramework.RemoveDefaultProfessions = true
 
 -- 1. Slacker
 addProfession('p_slacker', {
@@ -15,82 +13,9 @@ addProfession('p_slacker', {
     cost = 12,
     traits = { "t_untalented" },
     clothing = {
-        Back = { "Base.WoodenLance" },
-    },
-})
-
--- 2. Carpenter
-addProfession('p_carpenter', {
-    name = "UI_p_carpenter",
-    description = "UI_p_carpenter_desc",
-    --icon = "p_carpenter",
-    cost = 0,
-    xp = {
-        [Perks.Woodwork] = 3,
-        [Perks.Maintenance] = 2,
-        [Perks.MetalWelding] = 1,
-        [Perks.Tailoring] = 1,
-        [Perks.SmallBlunt] = 1,
-    },
-    clothing = {
-        Back = { "Base.WoodenLance" },
-    },
-})
-
--- 3. Metalworker
-addProfession('p_metalworker', {
-    name = "UI_p_metalworker",
-    description = "UI_p_metalworker_desc",
-    --icon = "p_metalworker",
-    cost = 0,
-    xp = {
-        [Perks.MetalWelding] = 3,
-        [Perks.Maintenance] = 2,
-        [Perks.Woodwork] = 1,
-        [Perks.Mechanics] = 1,
-        [Perks.SmallBlunt] = 1,
-    },
-    -- recipes = { "Make Metal Walls", "Make Metal Fences", "Make Metal Containers", "Make Metal Sheet", "Make Small Metal Sheet", "Make Metal Roof" },
-    clothing = {
-        Back = { "Base.WoodenLance" },
-    },
-})
-
--- 3. Mechanic
-addProfession('p_mechanic', {
-    name = "UI_p_mechanic",
-    description = "UI_p_mechanic_desc",
-    --icon = "p_mechanic",
-    cost = 0,
-    xp = {
-        [Perks.MetalWelding] = 3,
-        [Perks.Maintenance] = 2,
-        [Perks.Woodwork] = 1,
-        [Perks.Mechanics] = 1,
-        [Perks.SmallBlunt] = 1,
-    },
-    -- recipes = { "Basic Mechanics", "Intermediate Mechanics" },
-    clothing = {
-        Back = { "Base.WoodenLance" },
-    },
-})
-
--- 4. Engineer
-addProfession('p_engineer', {
-    name = "UI_p_engineer",
-    description = "UI_p_engineer_desc",
-    --icon = "p_engineer",
-    cost = 0,
-    xp = {
-        [Perks.Electricity] = 3,
-        [Perks.Mechanics] = 2,
-        [Perks.MetalWelding] = 1,
-        [Perks.Woodwork] = 1,
-        [Perks.Maintenance] = 1,
-    },
-    -- recipes = { "Basic Mechanics", "Generator", "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
-    clothing = {
-        Back = { "Base.WoodenLance" },
+        Back = { "Base.Bag_Satchel" },
+        Tshirt = { "Base.Shirt_CropTopNoArmTINT", "Base.Shirt_CropTopTINT", "Base.Tshirt_Sport" },
+        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -108,7 +33,15 @@ addProfession('p_tailor', {
         [Perks.SmallBlade] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Neck = { "Base.Tie_BowTieFull", "Base.Tie_Full" },
+        Tshirt = { "Base.Shirt_CropTopNoArmTINT", "Base.Shirt_CropTopTINT", "Base.Tshirt_Sport" },
+        Shirt = { "Base.Shirt_Denim", "Base.Shirt_Lumberjack", "Base.Shirt_Workman" },
+        TorsoExtra = { "Base.Apron_Black", "Base.Apron_White", "Base.Vest_Hunting_Grey", "Base.Vest_Waistcoat" },
+        Pants = { "Base.Shorts_LongSport", "Base.Trousers_Padded", "Base.Trousers_Suit" },
+        Skirt = { "Base.Skirt_Knees", "Base.Skirt_Normal", "Base.Skirt_Short" },
+        Shoes = { "Base.Shoes_BlackBoots", "Base.Shoes_Slippers" },
+        FullSuit = { "Base.Boilersuit" },
+        Dress = { "Base.Dress_Normal", "Base.Dress_Knees", "Base.Dress_Long" },
     },
 })
 
@@ -126,7 +59,11 @@ addProfession('p_nomad', {
         [Perks.Doctor] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        LeftEye = { "Base.Glasses_Eyepatch_Left" },
+        RightEye = { "Base.Glasses_Eyepatch_Right" },
+        Back = { "Base.Bag_Satchel" },
+        Hat = { "Base.Hat_BonnieHat", "Base.Hat_BonnieHat_CamoGreen" },
+        Shoes = { "Base.Shoes_Wellies", "Base.Shoes_BlackBoots", "Base.Shoes_RidingBoots" },
     },
 })
 
@@ -145,7 +82,12 @@ addProfession('p_trapper', {
     },
     --recipes = { "Make Stick Trap", "Make Snare Trap", "Make Wooden Cage Trap", "Make Fishing Rod", "Fix Fishing Rod" },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Back = { "Base.Bag_Satchel" },
+        Hat = { "Base.Hat_BonnieHat", "Base.Hat_BonnieHat_CamoGreen" },
+        TorsoExtra = { "Base.Vest_Hunting_Camo" },
+        FullTop = { "Base.Ghillie_Top" },
+        Pants = { "Base.Ghillie_Trousers" },
+        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_Wellies", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -164,7 +106,8 @@ addProfession('p_fisherman', {
     },
     --recipes = {"Make Fishing Rod", "Fix Fishing Rod", "Get Wire Back", "Make Fishing Net"},
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Shirt = { "Base.Shirt_Lumberjack" },
+        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_Wellies", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -182,7 +125,10 @@ addProfession('p_farmer', {
         [Perks.Spear] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Hat = { "Base.Hat_SummerHat" },
+        TorsoExtra = { "Base.Apron_Black", "Base.Apron_White" },
+        Pants = { "Base.Dungarees" },
+        Shoes = { "Base.Shoes_Wellies", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -200,7 +146,10 @@ addProfession('p_infiltrator', {
         [Perks.Sneak] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Back = { "Base.Bag_Satchel" },
+        Hat = { "Base.Hat_BonnieHat", "Base.Hat_BonnieHat_CamoGreen", "Base.Hat_Raccoon" },
+        MaskEyes = { "Base.Hat_HockeyMask" },
+        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_RidingBoots", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -218,7 +167,11 @@ addProfession('p_survivor', {
         [Perks.Maintenance] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        LeftEye = { "Base.Glasses_Eyepatch_Left" },
+        Hat = { "Base.Hat_BonnieHat", "Base.Hat_BonnieHat_CamoGreen", "Base.Hat_Raccoon" },
+        Shirt = { "Base.Shirt_CropTopNoArmTINT", "Base.Shirt_CropTopTINT", "Base.Tshirt_Sport", "Base.Shirt_Priest" },
+        TorsoExtra = { "Base.Vest_Hunting_Camo" },
+        Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_RidingBoots", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -236,7 +189,10 @@ addProfession('p_fighter', {
         [Perks.Maintenance] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Hat = { "Base.Hat_BaseballCapArmy" },
+        Shirt = { "Base.Shirt_CamoGreen", "Base.Shirt_CamoDesert", "Base.Shirt_CamoUrban" },
+        TorsoExtra = { "Base.Vest_Hunting_Camo", "Base.Vest_BulletCivilian" },
+        Shoes = { "Base.Shoes_RidingBoots", "Base.Shoes_ArmyBootsDesert", "Base.Shoes_BlackBoots" },
     },
 })
 
@@ -254,6 +210,99 @@ addProfession('p_cook', {
         [Perks.PlantScavenging] = 1,
     },
     clothing = {
-        Back = { "Base.WoodenLance" },
+        Hat = { "Base.Hat_ChefHat" },
+        TorsoExtra = { "Base.Apron_White", "Base.Apron_Black" },
+        Shoes = { "Base.Shoes_BlackBoots", "Base.Shoes_RedTrainers" },
+    },
+})
+
+-- 3. Mechanic
+addProfession('p_mechanic', {
+    name = "UI_p_mechanic",
+    description = "UI_p_mechanic_desc",
+    --icon = "p_mechanic",
+    cost = 0,
+    xp = {
+        [Perks.MetalWelding] = 3,
+        [Perks.Maintenance] = 2,
+        [Perks.Woodwork] = 1,
+        [Perks.Mechanics] = 1,
+        [Perks.SmallBlunt] = 1,
+    },
+    -- recipes = { "Basic Mechanics", "Intermediate Mechanics" },
+    clothing = {
+        Eyes = { "Base.Glasses_SafetyGoggles" },
+        Shirt = { "Base.Shirt_Workman" },
+        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        Shoes = { "Base.Shoes_RidingBoots", "Base.Shoes_BlackBoots" },
+    },
+})
+
+-- 4. Engineer
+addProfession('p_engineer', {
+    name = "UI_p_engineer",
+    description = "UI_p_engineer_desc",
+    --icon = "p_engineer",
+    cost = 0,
+    xp = {
+        [Perks.Electricity] = 3,
+        [Perks.Mechanics] = 2,
+        [Perks.MetalWelding] = 1,
+        [Perks.Woodwork] = 1,
+        [Perks.Maintenance] = 1,
+    },
+    -- recipes = { "Basic Mechanics", "Generator", "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
+    clothing = {
+        Eyes = { "Base.Glasses_SafetyGoggles" },
+        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        Shoes = { "Base.Shoes_RidingBoots", "Base.Shoes_BlackBoots" },
+    },
+})
+
+-- 2. Carpenter
+addProfession('p_carpenter', {
+    name = "UI_p_carpenter",
+    description = "UI_p_carpenter_desc",
+    --icon = "p_carpenter",
+    cost = 0,
+    xp = {
+        [Perks.Woodwork] = 3,
+        [Perks.Maintenance] = 2,
+        [Perks.MetalWelding] = 1,
+        [Perks.Tailoring] = 1,
+        [Perks.SmallBlunt] = 1,
+    },
+    clothing = {
+        Eyes = { "Base.Glasses_SafetyGoggles" },
+        Hat = { "Base.Hat_HardHat" },
+        Shirt = { "Base.Shirt_Workman" },
+        TorsoExtra = { "Base.Vest_HighViz" },
+        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        Shoes = { "Base.Shoes_RidingBoots", "Base.Shoes_BlackBoots" },
+    },
+})
+
+-- 3. Metalworker
+addProfession('p_metalworker', {
+    name = "UI_p_metalworker",
+    description = "UI_p_metalworker_desc",
+    --icon = "p_metalworker",
+    cost = 0,
+    xp = {
+        [Perks.MetalWelding] = 3,
+        [Perks.Maintenance] = 2,
+        [Perks.Woodwork] = 1,
+        [Perks.Mechanics] = 1,
+        [Perks.SmallBlunt] = 1,
+    },
+    -- recipes = { "Make Metal Walls", "Make Metal Fences", "Make Metal Containers", "Make Metal Sheet", "Make Small Metal Sheet", "Make Metal Roof" },
+    clothing = {
+        Eyes = { "Base.Glasses_SafetyGoggles" },
+        Shirt = { "Base.Shirt_Workman" },
+        Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
+        FullSuit = { "Base.Boilersuit", "Base.Boilersuit_BlueRed" },
+        Shoes = { "Base.Shoes_RidingBoots", "Base.Shoes_BlackBoots" },
     },
 })

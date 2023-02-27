@@ -8,76 +8,28 @@ option CustomStarterItems.p_slacker
 	translation = CustomStarterItems_p_slacker,
 }
 
-option CustomStarterItems.p_hunter
+option CustomStarterItems.p_carpenter
 {
 	type = string,
 	default = Base.Pencil,
 	page = CustomStarterItems,
-	translation = CustomStarterItems_p_hunter,
+	translation = CustomStarterItems_p_carpenter,
 }
 
-option CustomStarterItems.p_gatherer
+option CustomStarterItems.p_metalworker
 {
 	type = string,
 	default = Base.Pencil,
 	page = CustomStarterItems,
-	translation = CustomStarterItems_p_gatherer,
+	translation = CustomStarterItems_p_metalworker,
 }
 
-option CustomStarterItems.p_scavenger
+option CustomStarterItems.p_mechanic
 {
 	type = string,
 	default = Base.Pencil,
 	page = CustomStarterItems,
-	translation = CustomStarterItems_p_scavenger,
-}
-
-option CustomStarterItems.p_smuggler
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_smuggler,
-}
-
-option CustomStarterItems.p_soldier
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_soldier,
-}
-
-option CustomStarterItems.p_farmer
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_farmer,
-}
-
-option CustomStarterItems.p_medic
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_medic,
-}
-
-option CustomStarterItems.p_geek
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_geek,
-}
-
-option CustomStarterItems.p_tailor
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_tailor,
+	translation = CustomStarterItems_p_mechanic,
 }
 
 option CustomStarterItems.p_engineer
@@ -88,20 +40,28 @@ option CustomStarterItems.p_engineer
 	translation = CustomStarterItems_p_engineer,
 }
 
-option CustomStarterItems.p_carpenter
+option CustomStarterItems.p_tailor
 {
 	type = string,
 	default = Base.Pencil,
 	page = CustomStarterItems,
-	translation = CustomStarterItems_p_carpenter,
+	translation = CustomStarterItems_p_tailor,
 }
 
-option CustomStarterItems.p_blacksmith
+option CustomStarterItems.p_nomad
 {
 	type = string,
 	default = Base.Pencil,
 	page = CustomStarterItems,
-	translation = CustomStarterItems_p_blacksmith,
+	translation = CustomStarterItems_p_nomad,
+}
+
+option CustomStarterItems.p_trapper
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_trapper,
 }
 
 option CustomStarterItems.p_fisherman
@@ -112,18 +72,42 @@ option CustomStarterItems.p_fisherman
 	translation = CustomStarterItems_p_fisherman,
 }
 
+option CustomStarterItems.p_farmer
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_farmer,
+}
+
+option CustomStarterItems.p_infiltrator
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_infiltrator,
+}
+
+option CustomStarterItems.p_survivor
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_survivor,
+}
+
+option CustomStarterItems.p_fighter
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_fighter,
+}
+
 option CustomStarterItems.p_cook
 {
 	type = string,
 	default = Base.Pencil,
 	page = CustomStarterItems,
 	translation = CustomStarterItems_p_cook,
-}
-
-option CustomStarterItems.p_chaplain
-{
-	type = string,
-	default = Base.Pencil,
-	page = CustomStarterItems,
-	translation = CustomStarterItems_p_chaplain,
 }

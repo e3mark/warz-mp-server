@@ -37,5 +37,8 @@ UI_EN = {
     UI_p_survivor = "Survivor",
     UI_p_survivor_desc = "",
 
-    UI_p_fighter = "Carpenter",
+    UI_p_fighter = "Fighter",
     UI_p_fighter_desc = "",
+
+    UI_p_cook = "Cook",
+    UI_p_cook_desc = "",
