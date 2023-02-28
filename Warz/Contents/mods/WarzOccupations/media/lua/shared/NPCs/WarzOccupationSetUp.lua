@@ -1,9 +1,9 @@
 --ProfessionFramework.AlwaysUseStartingKits = false
 --ProfessionFramework.LogLevel = 3
-
+ProfessionFramework.RemoveDefaultProfessions = true
 local addProfession = ProfessionFramework.addProfession 
 local getProfession = ProfessionFramework.getProfession 
-ProfessionFramework.RemoveDefaultProfessions = true
+
 
 -- 1. Slacker
 addProfession('p_slacker', {
@@ -223,10 +223,10 @@ addProfession('p_mechanic', {
     --icon = "p_mechanic",
     cost = 0,
     xp = {
-        [Perks.MetalWelding] = 3,
+        [Perks.Mechanics] = 3,
         [Perks.Maintenance] = 2,
         [Perks.Woodwork] = 1,
-        [Perks.Mechanics] = 1,
+        [Perks.MetalWelding] = 1,
         [Perks.SmallBlunt] = 1,
     },
     -- recipes = { "Basic Mechanics", "Intermediate Mechanics" },
