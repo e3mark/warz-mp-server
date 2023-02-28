@@ -1,9 +1,10 @@
 --ProfessionFramework.AlwaysUseStartingKits = false
 --ProfessionFramework.LogLevel = 3
-ProfessionFramework.RemoveDefaultProfessions = true
 local addProfession = ProfessionFramework.addProfession 
 local getProfession = ProfessionFramework.getProfession 
 
+-- set this to true since we skip the vanilla definitions.
+ProfessionFramework.RemoveDefaultProfessions = true
 
 -- 1. Slacker
 addProfession('p_slacker', {
@@ -80,7 +81,7 @@ addProfession('p_trapper', {
         [Perks.Lightfoot] = 1,
         [Perks.Doctor] = 1,
     },
-    --recipes = { "Make Stick Trap", "Make Snare Trap", "Make Wooden Cage Trap", "Make Fishing Rod", "Fix Fishing Rod" },
+    recipes = { "Make Stick Trap", "Make Snare Trap", "Make Wooden Cage Trap" },
     clothing = {
         Back = { "Base.Bag_Satchel" },
         Hat = { "Base.Hat_BonnieHat", "Base.Hat_BonnieHat_CamoGreen" },
@@ -104,7 +105,7 @@ addProfession('p_fisherman', {
         [Perks.Lightfoot] = 1,
         [Perks.Doctor] = 1,
     },
-    --recipes = {"Make Fishing Rod", "Fix Fishing Rod", "Get Wire Back", "Make Fishing Net"},
+    recipes = {"Make Fishing Rod", "Fix Fishing Rod", "Get Wire Back", "Make Fishing Net"},
     clothing = {
         Shirt = { "Base.Shirt_Lumberjack" },
         Shoes = { "Base.Shoes_ArmyBoots", "Base.Shoes_Wellies", "Base.Shoes_BlackBoots" },
@@ -124,6 +125,7 @@ addProfession('p_farmer', {
         [Perks.PlantScavenging] = 1,
         [Perks.Spear] = 1,
     },
+    recipes = { "Make Mildew Cure", "Make Flies Cure" },
     clothing = {
         Hat = { "Base.Hat_SummerHat" },
         TorsoExtra = { "Base.Apron_Black", "Base.Apron_White" },
@@ -209,6 +211,7 @@ addProfession('p_cook', {
         [Perks.Fishing] = 1,
         [Perks.PlantScavenging] = 1,
     },
+    recipes = { "Make Cake Batter", "Make Pie Dough", "Make Bread Dough" },
     clothing = {
         Hat = { "Base.Hat_ChefHat" },
         TorsoExtra = { "Base.Apron_White", "Base.Apron_Black" },
@@ -229,7 +232,7 @@ addProfession('p_mechanic', {
         [Perks.MetalWelding] = 1,
         [Perks.SmallBlunt] = 1,
     },
-    -- recipes = { "Basic Mechanics", "Intermediate Mechanics" },
+    recipes = { "Basic Mechanics", "Intermediate Mechanics", "Advanced Mechanics" },
     clothing = {
         Eyes = { "Base.Glasses_SafetyGoggles" },
         Shirt = { "Base.Shirt_Workman" },
@@ -251,7 +254,7 @@ addProfession('p_engineer', {
         [Perks.Woodwork] = 1,
         [Perks.Maintenance] = 1,
     },
-    -- recipes = { "Basic Mechanics", "Generator", "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
+    recipes = { "Generator", "Make Stick Trap", "Make Snare Trap", "Make Wooden Cage Trap", "Make Aerosol bomb", "Make Flame bomb", "Make Pipe bomb", "Make Noise generator", "Make Smoke Bomb" },
     clothing = {
         Eyes = { "Base.Glasses_SafetyGoggles" },
         Hands = { "Base.Gloves_LeatherGloves", "Base.Gloves_LeatherGlovesBlack" },
@@ -297,7 +300,7 @@ addProfession('p_metalworker', {
         [Perks.Mechanics] = 1,
         [Perks.SmallBlunt] = 1,
     },
-    -- recipes = { "Make Metal Walls", "Make Metal Fences", "Make Metal Containers", "Make Metal Sheet", "Make Small Metal Sheet", "Make Metal Roof" },
+    recipes = { "Make Metal Walls", "Make Metal Fences", "Make Metal Containers", "Make Metal Sheet", "Make Small Metal Sheet", "Make Metal Roof" },
     clothing = {
         Eyes = { "Base.Glasses_SafetyGoggles" },
         Shirt = { "Base.Shirt_Workman" },
