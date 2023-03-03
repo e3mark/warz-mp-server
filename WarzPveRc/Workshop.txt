@@ -1,0 +1,6 @@
+version=1
+id=2941418600
+title=Warz RC MP Server
+description=Warz RC MP Server
+tags=Build 41;Multiplayer
+visibility=public
