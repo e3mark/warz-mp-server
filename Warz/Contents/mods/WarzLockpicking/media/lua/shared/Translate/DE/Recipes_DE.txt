@@ -1,3 +1,0 @@
-Recipe_DE = {
-Recipe_Create_BobbyPin = "Haarklammer herstellen"
-}

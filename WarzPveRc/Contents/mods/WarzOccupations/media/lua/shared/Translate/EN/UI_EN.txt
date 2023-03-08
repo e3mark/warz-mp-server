@@ -1,0 +1,18 @@
+UI_EN = {
+    UI_p_slacker = "Slacker",
+    UI_p_slacker_desc = "Unemployed and untalented.",
+    UI_t_untalented = "Untalented",
+    UI_t_untalented_desc = "Gives +12 Trait Points but disables any trait that is a hobby or some other kind of learnable talent.",
+
+    UI_p_rifleman = "Rifleman",
+    UI_p_rifleman_desc = "+5 Aiming, +3 Reloading, +2 Running, +2 Strength and Mechanics Recipes.",
+    
+    UI_p_marksman = "Marksman",
+    UI_p_marksman_desc = "+7 Aiming, +1 Reloading, +3 Running, +1 Strength skills.",
+
+    UI_p_assault = "Assault",
+    UI_p_assault_desc = "+3 Aiming, +6 Reloading, +1 Running, +3 Strength and Bomb Recipes.",
+    
+    UI_p_medic = "Medic",
+    UI_p_medic_desc = "+3 Aiming, +3 Reloading, +4 Running, +2 Strength, and +8 Doctor skills.",
+}

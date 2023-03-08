@@ -1,0 +1,6 @@
+version=1
+id=2943338648
+title=Warz MP LV Server
+description=Warz MP LV Server
+tags=Build 41;Multiplayer
+visibility=public

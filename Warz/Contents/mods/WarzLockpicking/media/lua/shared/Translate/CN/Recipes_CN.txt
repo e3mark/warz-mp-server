@@ -1,5 +1,0 @@
-Recipe_CN = {
-
-Recipe_Create_BobbyPin = "制作发夹",
-
-}

@@ -1,6 +1,0 @@
-version=1
-id=2935811304
-title=Warz MP Server
-description=Warz MP Server
-tags=Build 41;Multiplayer
-visibility=public

@@ -1,0 +1,15 @@
+Sandbox_EN = {
+	Sandbox_CustomStarterItems = "Warz - Starter Items",
+
+	Sandbox_CustomStarterItems_p_rifleman = "Rifleman Kit",
+	Sandbox_CustomStarterItems_p_rifleman_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer"
+
+	Sandbox_CustomStarterItems_p_marksman = "Marksman Kit",
+	Sandbox_CustomStarterItems_p_marksman_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer"
+
+	Sandbox_CustomStarterItems_p_assault = "Assault Kit",
+	Sandbox_CustomStarterItems_p_assault_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer"
+
+	Sandbox_CustomStarterItems_p_medic = "Medic Kit",
+	Sandbox_CustomStarterItems_p_medic_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer"
+}

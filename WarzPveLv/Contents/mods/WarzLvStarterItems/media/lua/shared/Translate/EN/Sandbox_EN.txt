@@ -1,0 +1,45 @@
+Sandbox_EN = {
+	Sandbox_CustomStarterItems = "Warz - Starter Items",
+
+	Sandbox_CustomStarterItems_p_slacker = "Slacker Kit",
+	Sandbox_CustomStarterItems_p_slacker_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_carpenter = "Carpenter Kit",
+	Sandbox_CustomStarterItems_p_carpenter_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_metalworker = "Metalworker Kit",
+	Sandbox_CustomStarterItems_p_metalworker_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_mechanic = "Mechanic Kit",
+	Sandbox_CustomStarterItems_p_mechanic_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_engineer = "Engineer Kit",
+	Sandbox_CustomStarterItems_p_engineer_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_tailor = "Tailor Kit",
+	Sandbox_CustomStarterItems_p_tailor_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_nomad = "Nomad Kit",
+	Sandbox_CustomStarterItems_p_nomad_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_trapper = "Trapper Kit",
+	Sandbox_CustomStarterItems_p_trapper_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_fisherman = "Fisherman Kit",
+	Sandbox_CustomStarterItems_p_fisherman_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_farmer = "Farmer Kit",
+	Sandbox_CustomStarterItems_p_farmer_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_infiltrator = "Infiltrator Kit",
+	Sandbox_CustomStarterItems_p_infiltrator_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_survivor = "Survivor Kit",
+	Sandbox_CustomStarterItems_p_survivor_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_fighter = "Fighter Kit",
+	Sandbox_CustomStarterItems_p_fighter_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+
+	Sandbox_CustomStarterItems_p_cook = "Cook Kit",
+	Sandbox_CustomStarterItems_p_cook_tooltip = "Semicolon-separated items like Base.Axe;Base.Hammer",
+}

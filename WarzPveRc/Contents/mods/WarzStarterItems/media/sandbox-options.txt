@@ -1,0 +1,33 @@
+VERSION = 1,
+
+option CustomStarterItems.p_rifleman
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_rifleman,
+}
+
+option CustomStarterItems.p_marksman
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_marksman,
+}
+
+option CustomStarterItems.p_assault
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_assault,
+}
+
+option CustomStarterItems.p_medic
+{
+	type = string,
+	default = Base.Pencil,
+	page = CustomStarterItems,
+	translation = CustomStarterItems_p_medic,
+}

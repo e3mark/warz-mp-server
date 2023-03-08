@@ -1,3 +1,0 @@
-Recipe_RU = {
-    Recipe_Create_BobbyPin = "Создать заколку"
-}
